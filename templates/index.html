@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>DIGIOTAI</title>
+<!-- stylesheets -->
+<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/yeti/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="{{ url_for('static', filename='main.css') }}" rel="stylesheet">
+<style>
+.headr1 {}
+.headr11{display:inline-block; width:20%; align:center;}
+.headr12{display:inline-block;width:79%;}
+a:hover {color:red;text-decoration:underline;}
+a{text-decoration:none;color:white;}
+    .row{background-image: url({{ url_for('static', filename='background.png')}});
+         background-repeat: no-repeat;
+        background-size: cover;}
+    .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+    .logo{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+<div class="headr1">
+<div class="headr11" >
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img class="logo" src="{{ url_for('static', filename='logo.png') }}" alt="Related Book" width="100" height="50"/>
+
+</div>
+<div  class="headr12">
+<a href="DIGIOTAI" style="text-align: left; text-decoration:none; font-size:35px; " title="DIGIOTAI"> <font color="#808080">Autonomous Traffic Management - Semantic Segmentation</font></a>
+</br>
+</div>
+</div>
+
+<div class="row">
+ 
+  <div class="col-md-7">
+      <h2 style="color:white"><b>Upload an Image</b></h2>
+    <br>
+    <form action="" method=post enctype=multipart/form-data>
+      <input type=file name=file class="button">
+    </br>
+      <input type=submit value=Upload class="button">
+    </form>
+
+    </br>
+    </br>
+	</br>
+    </br>
+	</br>
+    </br>
+	</br>
+    </br>
+	</br>
+    </br>
+	</br>
+    </br>
+	</br>
+    </br>
+	</br>
+    </br>
+	</br>
+    </br>
+	</br>
+    </br>
+	</br>
+    </br>
+	</br>
+    </br>
+	</br>
+    </br>
+  </div>
+ 
+</div>
+</body>
+
+</html>
+ 
